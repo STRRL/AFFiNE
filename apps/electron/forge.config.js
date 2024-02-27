@@ -81,6 +81,7 @@ const makers = [
       platforms: ['linux'],
       options: {
         bin: productName,
+        icon: icoPath.replace('.ico', '.png'),
       },
     },
   },
